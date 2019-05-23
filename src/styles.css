@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+* {
+font-family: 'Open Sans', sans-serif;
+}
+
+.page {
+        color: white;
+        background: rgba(76,76,76,1);
+        /* background: -webkit-linear-gradient(top, #45484d 0%,#000000 100%); */
+}
+
+.btn-primary {
+    background-color: #AD0B0B;
+    outline: none;
+    border: none;
+}
