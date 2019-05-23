@@ -1,4 +1,9 @@
-.contain-image {
-    max-width: max-content;
+.carousel-inner > img {
     margin: auto;
+    object-fit: contain;
+    width: 3em !important;
+} 
+
+.max {
+    max-width: max-content;
 }

@@ -4,18 +4,24 @@
 }
 
 .page > *{
-    background: grey !important;
+    background: #333333 !important;
 }
 
 .dropdown-menu {
-    background: grey !important;
+    background: #333333 !important;
 }
 
 .dropdown-item:hover {
-    background-color: lightgray !important;
+    background-color: #666666 !important;
 }
 
 
 * {
     color: white !important;
+}
+
+@media (max-width: 876px) {
+    .dropdown-menu.show {
+        display: contents;
+    }
 }
