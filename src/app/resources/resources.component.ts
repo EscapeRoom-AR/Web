@@ -11,11 +11,7 @@ export class ResourcesComponent implements OnInit {
 
   constructor() {
     this.images = [
-<<<<<<< HEAD
       "assets/img/logo.png"
-=======
-      "/assets/img/logo.png"
->>>>>>> afd5e0538139af062ea46073dcac755f18ac9d34
     ]
   }
 
