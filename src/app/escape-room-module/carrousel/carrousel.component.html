@@ -1,0 +1,32 @@
+<div class="max">
+  <ngb-carousel *ngIf="images" class="resize">
+    <ng-template ngbSlide>
+      <img [src]="images[0]" alt="Random first slide" id="carousel-image" style="transform: rotate(180deg)">
+      <div class="carousel-caption">
+        <h3>First slide label</h3>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </ng-template>
+    <!-- <ng-template ngbSlide style="max-width: max-content">
+      <img [src]="images[1]" alt="Random second slide" id="carousel-image" style="transform: rotate(90deg)">
+      <div class="carousel-caption">
+        <h3>Second slide label</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </ng-template> -->
+    <ng-template ngbSlide>
+      <img [src]="images[2]" alt="Random third slide" id="carousel-image">
+      <div class="carousel-caption">
+        <h3>Third slide label</h3>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <img [src]="images[3]" alt="Random fourth slide" id="carousel-image">
+      <div class="carousel-caption">
+        <h3>Fourth slide label</h3>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+</div>

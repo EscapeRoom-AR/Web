@@ -1,0 +1,27 @@
+.nav-button {
+    border: none;
+    background-color: transparent;
+}
+
+.page > *{
+    background: #333333 !important;
+}
+
+.dropdown-menu {
+    background: #333333 !important;
+}
+
+.dropdown-item:hover {
+    background-color: #666666 !important;
+}
+
+
+* {
+    color: white !important;
+}
+
+@media (max-width: 876px) {
+    .dropdown-menu.show {
+        display: contents;
+    }
+}

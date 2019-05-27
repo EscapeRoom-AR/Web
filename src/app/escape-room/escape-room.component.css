@@ -1,0 +1,9 @@
+#brand-logo {
+    width: 80px;
+    object-fit: contain;
+    margin: auto;
+}
+
+#spacer {
+    margin: 15px 0;
+}
