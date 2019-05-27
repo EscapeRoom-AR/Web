@@ -2,17 +2,40 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 
 * {
-font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
-.page {
+/* .page {
         color: white;
         background: rgba(76,76,76,1);
-        /* background: -webkit-linear-gradient(top, #45484d 0%,#000000 100%); */
-}
+} */
 
 .btn-primary {
-    background-color: #AD0B0B;
-    outline: none;
+    background-color: #666666;
     border: none;
 }
+
+.btn-primary:hover {
+    background-color: #666666 !important; 
+    opacity: 0.7 !important;
+    border: none !important;
+}
+
+.btn-primary:active, .btn-primary:focus{
+    /* box-shadow: none !important; */
+    box-shadow: 0 0 0 0.2rem grey !important;
+    /* opacity: 1 !important; */
+}
+
+button:focus {
+    outline: none !important;
+}
+
+.center {
+    margin: auto;
+}
+
+.transparent {
+    /* background-color: transparent !important;  */
+    border: none;
+} 

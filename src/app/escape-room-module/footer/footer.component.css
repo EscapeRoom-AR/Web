@@ -1,12 +1,14 @@
-.card {
+/* .card {
     background: rgba(76,76,76,1);
     border-color: white;
+    padding-top: 10px;
 }
 
 .card-header {
     background: rgba(76,76,76,1);
     border-color: white;
+} */
+
+.page {
+    padding-top: 15px;
 }
-
-
-

@@ -8,22 +8,26 @@ import { HomeComponent } from './home/home.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { RouterModule } from '@angular/router';
+import { ResourcesComponent } from './resources/resources.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HomeComponent,
-    AboutUsComponent,
-    ContactUsComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    EscapeRoomModule,
-    NgbModule,
-    RouterModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+   declarations: [
+      AppComponent,
+      HomeComponent,
+      AboutUsComponent,
+      ContactUsComponent,
+      ResourcesComponent
+   ],
+   imports: [
+      BrowserModule,
+      AppRoutingModule,
+      EscapeRoomModule,
+      NgbModule,
+      RouterModule
+   ],
+   providers: [],
+   bootstrap: [
+      AppComponent
+   ]
 })
 export class AppModule { }

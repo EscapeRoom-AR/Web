@@ -10,7 +10,12 @@ export class CarrouselComponent implements OnInit {
   images: string[];
 
   constructor() {
-    this.images = [1, 2, 3].map(() => `https://picsum.photos/900/500?random&t=${Math.random()}`);
+    this.images = [
+      "/assets/img/about-us/IMG1.jpg",
+      "/assets/img/about-us/IMG2.jpg",
+      "/assets/img/about-us/IMG3.jpg",
+      "/assets/img/about-us/IMG4.jpg",
+    ]
   }
 
   ngOnInit() {
