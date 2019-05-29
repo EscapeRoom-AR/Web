@@ -2,9 +2,9 @@
 
 ## Steps:
 
-git clone https://github.com/EscapeRoom-AR/Web.git  
-cd Web  
-npm i  
-ng serve  
+>git clone https://github.com/EscapeRoom-AR/Web.git  
+>cd Web  
+>npm i  
+>ng serve  
   
-Open browser @ localhost:4200
+Open browser @ >localhost:4200
