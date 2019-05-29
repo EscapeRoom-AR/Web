@@ -7,4 +7,4 @@
 >npm i  
 >ng serve  
   
-Open browser @ >localhost:4200
+Open browser @ _localhost:4200_
