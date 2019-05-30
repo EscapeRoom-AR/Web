@@ -1,0 +1,12 @@
+#space {
+    margin-top: 10px;
+}
+
+.profile {
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: contain;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    margin-left: 2em;
+}

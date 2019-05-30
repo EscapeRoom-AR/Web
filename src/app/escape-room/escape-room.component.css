@@ -7,3 +7,11 @@
 #spacer {
     margin: 15px 0;
 }
+
+.container {
+    min-height: 65.5vh;
+}
+
+.jumbotron {
+    padding: 5px;
+}

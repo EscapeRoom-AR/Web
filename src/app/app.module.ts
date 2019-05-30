@@ -9,6 +9,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { RouterModule } from '@angular/router';
 import { ResourcesComponent } from './resources/resources.component';
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 
 @NgModule({
    declarations: [
@@ -16,7 +17,8 @@ import { ResourcesComponent } from './resources/resources.component';
       HomeComponent,
       AboutUsComponent,
       ContactUsComponent,
-      ResourcesComponent
+      ResourcesComponent,
+      PrivacyPolicyComponent
    ],
    imports: [
       BrowserModule,

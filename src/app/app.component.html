@@ -1,14 +1,10 @@
 <app-header></app-header>
 
-<router-outlet></router-outlet>
+<router-outlet (activate)="onActivate($event)"></router-outlet>
 
 <app-footer></app-footer>
 
 <!-- <audio autoplay>
     <source src="assets/audio/hello-darkness.mp3" type="audio/mpeg">
     Your browser does not support the audio tag.
-<<<<<<< HEAD
 </audio> -->
-=======
-</audio> -->
->>>>>>> ec7e007bacbe679fd7c87cafe83a8a29c88ef692

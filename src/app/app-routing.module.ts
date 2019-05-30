@@ -5,6 +5,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { EscapeRoomComponent } from './escape-room/escape-room.component';
 import { ResourcesComponent } from './resources/resources.component';
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'contact-us', component: ContactUsComponent },
   { path: 'escape-room', component: EscapeRoomComponent },
   { path: 'resources', component: ResourcesComponent },
+  { path: 'privacy', component: PrivacyPolicyComponent },
 ];
 
 @NgModule({
