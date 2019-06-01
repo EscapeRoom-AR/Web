@@ -4,18 +4,17 @@
       <h2 class="display-12">Download all the VuMarks at the bottom!</h2>
     </div>
     <div class="row images">
-      <div class="col-4" *ngFor="let image of images">
+      <div class="col-9" *ngFor="let image of images">
         <img [src]="image" (click)="clickImage(image)">
       </div>
     </div>
 
     <div>
-      <div class="row">
-        <!-- Expanded image -->
+      <!-- <div class="row">
         <img id="mainImage" [src]="actualImage">
-      </div>
+      </div> -->
 
-      <div>
+      <div style="margin-top: 2%">
         <a href="assets/Vumarks.zip">
           <button class="btn btn-primary">Download VuMarks</button>
         </a>
