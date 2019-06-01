@@ -1,5 +1,5 @@
 .title {
-    padding-top: 10px;
+    padding-top: 4%;
 }
 
 .list {
@@ -7,16 +7,19 @@
 }
 
 .list li {
-    padding: 25px 0;
+    padding: 3% 0;
+}
+
+.border-top {
+    border-top: 2px solid #CCCCCC;
 }
 
 .row {
-    border-top: 2px solid #CCCCCC;
-    padding-top: 5px;
+    padding-top: 2%;
 }
 
 .space {
-    margin-top: 5px;
+    margin-top: 2%;;
 }
 
 #video {

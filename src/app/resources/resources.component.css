@@ -7,15 +7,15 @@
   }
 
   .border-bottom {
-    padding-bottom: 10px;  
+    padding-bottom: 2%;  
     border-bottom: 10px gray;
   }
 
   .testimonial-group > .images {
     overflow-x: auto;
     white-space: nowrap;
-    display: inline-block;
-    padding: 20px 0;
+    display: -webkit-box;
+    padding: 2% 0;
   }
 
   .images img:hover {
@@ -23,7 +23,7 @@
   }
 
   .testimonial-group > .images > .col-4 {
-    display: inline-block;
+    /* display: -webkit-box; */
     float: none;
   }
 
@@ -32,11 +32,12 @@
  }
 
  #mainImage {
-     padding: 20px 0;
+     padding: 2% 0;
      max-height: 600px;
      object-fit: contain;
+     height: 100%;
  }
 
  .padding-top {
-     padding-top: 20px;
+     padding-top: 5%;
  }
