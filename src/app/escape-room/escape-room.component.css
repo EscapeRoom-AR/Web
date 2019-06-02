@@ -2,6 +2,14 @@
     width: 80px;
     object-fit: contain;
     margin: auto;
+    float: right;
+}
+
+#app-title {
+    width: 100%;
+    object-fit: contain;
+    height: 150px;
+    all: inherit;
 }
 
 #spacer {
@@ -14,4 +22,21 @@
 
 .jumbotron {
     padding: 5px;
+}
+
+#image {
+    width: 100%;
+}
+
+.pls-space{
+    padding: 3% 0;
+}
+
+.center-text {
+    align-self: center;
+    text-align: center;
+}
+
+.margin-auto {
+    margin: auto;
 }
